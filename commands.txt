@@ -1,0 +1,8 @@
+#Command List
+#Use ,xx to wait xx seconds
+show ver
+show isis nei
+,5
+show bgp nei
+
+

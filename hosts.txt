@@ -1,0 +1,5 @@
+#List of hostname or ip address
+172.18.87.93
+172.18.87.96
+172.18.87.99
+
