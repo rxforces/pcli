@@ -214,6 +214,10 @@ if __name__ == "__main__":
     parser.add_argument('-c', '--commands', help='commands file')
     parser.add_argument('-d', '--default', help='use default value', action='store_true')
 
+    if len(sys.argv) == 1:
+        parser.print_help()
+        sys.exit(1)
+
     args = parser.parse_args()
 
     if args.user:
